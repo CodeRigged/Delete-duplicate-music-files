@@ -50,7 +50,7 @@ public class CleanUpMusicFiles {
     public static void main(String[] args) {
         JFileChooser choseDirectory = new JFileChooser();
         choseDirectory.setCurrentDirectory(new File("."));
-        choseDirectory.setDialogTitle("choser");
+        choseDirectory.setDialogTitle("Chose Directory");
         choseDirectory.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
         choseDirectory.setAcceptAllFileFilterUsed(false);
         
